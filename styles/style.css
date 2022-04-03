@@ -11,10 +11,12 @@
 
 .header {
   display: flex;
+  position: relative;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
   background-color: #f2f2f2;
+  overflow: hidden;
   /* выше установили ограничения для секции */
 }
 
@@ -64,6 +66,7 @@
   height: 608px;
   bottom: 0;
   right: 0;
+  z-index: 1;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
@@ -72,7 +75,6 @@
   width: 568px;
   background-color: #2f80ed;
   position: absolute;
-  z-index: -1;
   top: 64px;
   right: 0;
 }
@@ -229,6 +231,7 @@
   align-items: center;
   position: relative;
   overflow: hidden;
+  padding-bottom: 90px;
 }
 
 .section-title_theme_dark {
@@ -243,7 +246,6 @@
 }
 
 .table_theme_dark {
-  margin-bottom: 90px;
   z-index: 1;
 }
 
@@ -255,7 +257,8 @@
 }
 
 .kaufman__triangle {
-  size: 877px 877px;
+  width: 877px;
+  height: 877px;
   position: absolute;
   top: 0;
   right: -210px;
@@ -324,6 +327,7 @@
 }
 
 .footer__social-icon {
-  size: 16px 16px;
+  height: 16px;
+  width: 16px;
 }
 
