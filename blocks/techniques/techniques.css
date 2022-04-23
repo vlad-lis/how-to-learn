@@ -1,0 +1,9 @@
+.techniques {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    margin: 0 auto 0 auto;
+    width: 80%;
+}

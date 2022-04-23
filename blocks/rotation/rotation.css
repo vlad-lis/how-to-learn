@@ -1,0 +1,13 @@
+@keyframes rotation-360deg {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.rotation {
+    animation: rotation-360deg 20s linear infinite;
+    overflow: hidden;
+}
