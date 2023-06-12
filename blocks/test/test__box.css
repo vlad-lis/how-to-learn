@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'yolo';
+  src: url(../../fonts/rush.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'yolo';
+  src: url(../../fonts/rush.ttf) format('truetype');
+  font-weight: bold;
+}
+
+.test__box {
+  width: 500px;
+  min-height: 500px;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}

@@ -1,0 +1,15 @@
+@import url(./test__box.css);
+@import url(./test__text.css);
+@import url(./test__text-2.css);
+@import url(./video-test.css);
+
+.test {
+  padding: 50px 50px 50px 50px;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
