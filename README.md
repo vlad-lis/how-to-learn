@@ -5,4 +5,4 @@ The page is static and made for resolutions of 1100px and higher.
 
 ## Run locally
 1. Clone repository
-2. Manually open index.html or open with live server.
+2. Manually open index.html or open with live server in IDE.
